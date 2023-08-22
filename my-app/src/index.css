@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&display=swap');
+
+:root {
+  /* CUSTOM COLORS */
+  --lightBlue: #31C3BD;
+  --lightBlueHover: #65E9E4;
+  --lightYellow: #F2B137;
+  --lightYellowHover: #FFC860;
+  --darkNavy: #1A2A33;
+  --semiDarkNavy: #1F3641;
+  --silver: #A8BFC9;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

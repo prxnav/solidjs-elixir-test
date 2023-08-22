@@ -1,0 +1,32 @@
+.Container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+    width: 460px;
+}
+
+.Turn {
+    width: 130px;
+    height: 52px;
+    background-color: var(--semiDarkNavy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding-bottom: 2px;
+}
+
+.Restart {
+    width: 52px;
+    height: 52px;
+    background: var(--silver);
+    box-shadow: inset 0px -4px 0px #6B8997;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.15s ease;
+    margin-left: auto;
+}

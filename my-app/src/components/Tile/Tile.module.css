@@ -1,0 +1,17 @@
+.Tile {
+    width: 140px;
+    height: 140px;
+    background-color: var(--lightBlue);
+    box-shadow: inset 0px -8px 0px #10212A;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    img {
+        width: 64px;
+        height: 64px;
+        transition: 0.25s ease;
+    }
+}
